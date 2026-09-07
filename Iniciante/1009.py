@@ -1,0 +1,5 @@
+name = str(input("").upper)
+fixed_salary = float(input(""))
+total_month = float(input(""))
+total = (fixed_salary + (total_month * 0.15))
+print(f"TOTAL = R$ {total:.2f}")
